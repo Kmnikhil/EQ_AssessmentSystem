@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Media files (generated plots)
+media/
+
+# Logs
+*.log
+logs/
+
+# Hugging Face cache (optional but recommended)
+.cache/
+huggingface/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
